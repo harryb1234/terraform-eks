@@ -36,7 +36,7 @@ module "vpc" {
     "kubernetes.io/cluster/${local.cluster_name}" = "shared"
     "kubernetes.io/role/elb"                      = "1"
   }
-#this is to test the functionality
+#this is to test feature branch
 
   private_subnet_tags = {
     "kubernetes.io/cluster/${local.cluster_name}" = "shared"
